@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+    <ImageView
+        android:id="@+id/thumb_text_itemqs"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher"/>
+    <TextView
+        android:id="@+id/loginName_text_itemqs"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+        android:textColor="#00f"
+        android:layout_toRightOf="@id/thumb_text_itemqs"
+        android:layout_marginLeft="10dp"
+        android:text="这是我"
+        />
+    <TextView
+        android:id="@+id/content_text_itemqs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/thumb_text_itemqs"
+        android:layout_marginTop="10dp"
+        android:text="哈哈哈哈"
+        />
+</RelativeLayout>
